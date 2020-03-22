@@ -1,0 +1,88 @@
+.radiusContainer{
+    display: flex;
+    height: 100%;
+    padding: 75px 0;
+}
+.radiusBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed rgba(225,225,225,.4);
+    position: relative;
+    padding: 0 15px;
+    width: 361px;
+    height: 391px;
+}
+.rangeBox{
+    display:flex;
+    flex-direction:column;
+    height:40px;
+    margin-bottom:20px;
+}
+.rangeLabel{
+    font-size:15px;
+}
+.radiusCircle {
+    width: 361px;
+    height: 361px;
+    background-image:linear-gradient(135deg, #9be15d 0%, #00d9a6 100%);
+}
+.radiusInput{
+    position: absolute;
+    width: 100%;
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    background: transparent; /* Otherwise white in Chrome */
+}
+.radiusInput::-webkit-slider-thumb {
+    cursor: pointer;
+}
+.radiusInput:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+.radiusInput::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+
+
+#rangeOne{
+    top: -2%;
+    left: 0;
+}
+#rangeTwo{
+    transform: rotate(90deg);
+    right: -50%;
+    top: 48%;
+}
+#rangeThree{
+    bottom: -2%;
+    left: 0;
+}
+#rangeFour{
+    transform: rotate(-90deg);
+    left: -50%;
+    top: 48%;
+}
+
+.resultBox{
+    display:flex;
+    justify-content:center;
+}
+.rangeLable {
+    width: 150px;
+}
+.cssResult ul {
+    margin: 15px 0;
+    padding-left: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .resultBox{
+        margin-top:30px;
+    }
+}

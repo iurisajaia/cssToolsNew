@@ -1,0 +1,49 @@
+.container{
+    padding-top:25px;
+}
+.inputLabel{
+    font-size:15px;
+}
+.inputContainer{
+    display:flex;
+    flex-direction:column;
+    height:40px;
+    margin-bottom:20px;
+}
+.colorSelector{
+    padding-top:10px;
+    padding-right:10px;
+    max-height:200px;
+    height:200px;
+    width:100%;
+    overflow:auto;
+    display:'flex';
+    flex-direction:'column';
+}
+.colorSelector::-webkit-scrollbar {
+    display: none;
+}
+.gradientText{
+    font-size: 87.5%;
+    max-width:400px;
+    display:inline-block;
+    word-break:break-all;
+}
+
+.addColor{
+    margin-right:5px;
+}
+.addColor + i{
+    cursor:pointer
+}
+
+.gradientBox{
+    width:400px;
+    height:200px;
+}
+
+@media  (max-width: 770px) {
+    .gradientBoxContainer{
+        align-items:center !important;
+    }
+}
