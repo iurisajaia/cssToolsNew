@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LinearGradient from '../components/linear';
 import RadialGradient from '../components/radial';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 const Gradient = ({title,description}) => {
     const [tab,setTab] = useState('linear');

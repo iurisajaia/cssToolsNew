@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import CopyTo from '../components/CopyToClipBoard';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 class MinifyCss extends Component{
     state = {

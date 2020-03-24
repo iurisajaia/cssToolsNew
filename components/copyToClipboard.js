@@ -1,6 +1,6 @@
 import React , { useState } from 'react'
 import {CopyToClipboard} from 'react-copy-to-clipboard';
-
+import { CopySvg , TickSvg } from '../public/clipboard';
 
  function CopyTo(props){
     const { text , onCopy } = props;
@@ -16,11 +16,9 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
     };
 
     return (
-        <>
-         {/*<CopyToClipboard text={text} onCopy={onPress}> */}
-            Copy To Clipboard
-         {/*</CopyToClipboard> */}
-        </>
+         <CopyToClipboard text={text} onCopy={onPress}>
+            <span className="btn copy-btn">{alert ? <TickSvg/> : <CopySvg/>} {alert ? 'Copied' : 'Copy to clipboard'}</span>
+         </CopyToClipboard>
     )
 }
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import CopyTo from '../components/CopyToClipBoard'
 import pretty from 'pretty'
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 class HtmlFormater extends Component{
 

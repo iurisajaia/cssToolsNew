@@ -5,7 +5,6 @@ import { Nav, Navbar,  NavbarBrand} from 'reactstrap'
 import { NextAuth } from 'next-auth/client'
 import Cookies from 'universal-cookie'
 import Package from '../package'
-import Styles from '../css/style.css'
 
 export default class extends React.Component {
 
@@ -33,7 +32,7 @@ export default class extends React.Component {
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <title>{this.props.title || 'Next.js Starter Project'}</title>
-          <style dangerouslySetInnerHTML={{__html: Styles}}/>
+          <link href="/css/fontawesome/css/all.min.css" rel="stylesheet"/>
           <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossOrigin="anonymous" />
           <script src="https://cdn.polyfill.io/v2/polyfill.min.js"/>
         </Head>
