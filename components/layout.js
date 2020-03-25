@@ -17,16 +17,12 @@ const [burger,setBurger] = useState(false)
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <title>{props.title || 'cssTools'}</title>
           <meta name="google-site-verification" content="zWEFSHiIMdFojNswX_eIQINmRA-w-ZrwSGNGXSUHcbo" />
-            <!-- Google Analytics -->
-            <!-- Google Analytics -->
             <script>
                 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
                 ga('create', 'UA-XXXXX-Y', 'auto');
                 ga('send', 'pageview');
             </script>
             <script async src='https://www.google-analytics.com/analytics.js'></script>
-            <!-- End Google Analytics -->
-            <!-- End Google Analytics -->
           <link href="/css/fontawesome/css/all.min.css" rel="stylesheet"/>
           <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossOrigin="anonymous" />
           <script src="https://cdn.polyfill.io/v2/polyfill.min.js"/>
