@@ -22,7 +22,7 @@ process.on('unhandledRejection', (reason, p) => {
 
 // Default when run with `npm start` is 'production' and default port is '80'
 // `npm run dev` defaults mode to 'development' & port to '3000'
-process.env.NODE_ENV = process.env.NODE_ENV || 'production'
+process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 process.env.PORT = process.env.PORT || 80
 
 // Initialize Next.js
@@ -51,10 +51,10 @@ nextApp
   const expressApp = nextAuthOptions.expressApp
 
   // Add admin routes
-  routes.admin(expressApp);
+  // routes.admin(expressApp);
 
   // Add account management route - reuses functions defined for NextAuth
-  routes.account(expressApp, nextAuthOptions.functions)
+  // routes.account(expressApp, nextAuthOptions.functions)
 
   // Serve fonts from ionicon npm module
   expressApp.use('/fonts/ionicons', express.static('./node_modules/ionicons/dist/fonts'))
