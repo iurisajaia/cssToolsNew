@@ -1,7 +1,7 @@
 import React, { useState , useEffect } from 'react'
 import radius from '../assets/radius.module.css';
 import Layout from '../components/layout'
-import CopyTo from '../components/copyToClipboard';
+import CopyTo from '../components/copyToClipBoard';
 import CodeContainer from '../components/codeContainer';
 import Input from '../components/input';
 import RadiusInput from '../components/radiusInput';

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Input from '../components/input';
 import GradientColorPicker from '../components/gradientColorPicker';
 import radial from '../assets/radial.module.css';
-import CopyTo from '../components/CopyToClipBoard';
+import CopyTo from './copyToClipBoard';
 import CodeContainer from '../components/codeContainer';
 
 

@@ -1,7 +1,7 @@
 import React, { useState,useEffect} from 'react';
 import Input from '../components/input';
 import GradientColorPicker from '../components/gradientColorPicker';
-import CopyTo from '../components/CopyToClipBoard'
+import CopyTo from './copyToClipBoard'
 import linear from '../assets/linear.module.css';
 import CodeContainer from '../components/codeContainer';
 

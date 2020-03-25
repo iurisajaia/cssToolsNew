@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 import shadow from '../assets/shadow.module.css';
 import Input from '../components/input';
 import ColorPicker from '../components/colorPicker';
-import CopyTo from '../components/copyToClipboard';
+import CopyTo from '../components/copyToClipBoard';
 import CodeContainer from '../components/codeContainer';
 import Paragraph from '../components/paragraph';
 
