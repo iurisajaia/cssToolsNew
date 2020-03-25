@@ -17,14 +17,7 @@ const [burger,setBurger] = useState(false)
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <title>{props.title || 'cssTools'}</title>
           <meta name="google-site-verification" content="zWEFSHiIMdFojNswX_eIQINmRA-w-ZrwSGNGXSUHcbo" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156256604-3" />
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date());
 
-            gtag('config', 'UA-156256604-3');
-        </script>
 
             <link href="/css/fontawesome/css/all.min.css" rel="stylesheet"/>
           <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossOrigin="anonymous" />
