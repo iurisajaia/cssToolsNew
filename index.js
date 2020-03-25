@@ -51,10 +51,10 @@ nextApp
   const expressApp = nextAuthOptions.expressApp
 
   // Add admin routes
-  routes.admin(expressApp);
+  // routes.admin(expressApp);
 
   // Add account management route - reuses functions defined for NextAuth
-  routes.account(expressApp, nextAuthOptions.functions)
+  // routes.account(expressApp, nextAuthOptions.functions)
 
   // Serve fonts from ionicon npm module
   expressApp.use('/fonts/ionicons', express.static('./node_modules/ionicons/dist/fonts'))

@@ -17,6 +17,7 @@ const [burger,setBurger] = useState(false)
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <meta name="google-site-verification" content="zWEFSHiIMdFojNswX_eIQINmRA-w-ZrwSGNGXSUHcbo" />
           <title>{props.title || 'cssTools'}</title>
+           <meta name="google-site-verification" content="zWEFSHiIMdFojNswX_eIQINmRA-w-ZrwSGNGXSUHcbo" />
           <link href="/css/fontawesome/css/all.min.css" rel="stylesheet"/>
           <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossOrigin="anonymous" />
           <script src="https://cdn.polyfill.io/v2/polyfill.min.js"/>
