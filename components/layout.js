@@ -18,15 +18,14 @@ const [burger,setBurger] = useState(false)
           <title>{props.title || 'cssTools'}</title>
           <meta name="google-site-verification" content="zWEFSHiIMdFojNswX_eIQINmRA-w-ZrwSGNGXSUHcbo" />
             <!-- Google Analytics -->
+            <!-- Google Analytics -->
             <script>
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
+                window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
                 ga('create', 'UA-XXXXX-Y', 'auto');
                 ga('send', 'pageview');
             </script>
+            <script async src='https://www.google-analytics.com/analytics.js'></script>
+            <!-- End Google Analytics -->
             <!-- End Google Analytics -->
           <link href="/css/fontawesome/css/all.min.css" rel="stylesheet"/>
           <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossOrigin="anonymous" />
