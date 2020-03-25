@@ -17,7 +17,7 @@ export default class extends Page {
 
                 {/* Shadow */}
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <Link prefetch href="/box-shadow-generator">
+                  <Link  href="/box-shadow-generator">
                     <a href="/box-shadow-generator">
                     <div className="case-item box box__second">
                       <img className="case-item__icon" src={card.shadow.image} alt="box shadow generator" title="box shadow generator" />
@@ -32,7 +32,7 @@ export default class extends Page {
 
                 {/* radius */}
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <Link prefetch href="/border-radius-generator">
+                  <Link  href="/border-radius-generator">
                     <a href="/border-radius-generator">
                     <div className="case-item box box__second">
                       <img className="case-item__icon" src={card.radius.image} alt="border radius generator" title="border radius generator" />
@@ -47,7 +47,7 @@ export default class extends Page {
 
                 {/* minify css */}
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <Link prefetch href="/minify-css">
+                  <Link  href="/minify-css">
                     <a href="/minify-css">
                       <div className="case-item box box__second">
                         <img className="case-item__icon" src={card.minifycss.image} alt="border radius generator" title="border radius generator" />
@@ -62,7 +62,7 @@ export default class extends Page {
 
                 {/* HTML Formater */}
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <Link prefetch href="/html-formater">
+                  <Link  href="/html-formater">
                     <a href="/html-formater">
                       <div className="case-item box box__second">
                         <img className="case-item__icon" src={card.htmlformater.image} alt="border radius generator" title="border radius generator" />
@@ -77,7 +77,7 @@ export default class extends Page {
 
                 {/* Gradient */}
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <Link prefetch href="/css-linear-gradient-generator">
+                  <Link  href="/css-linear-gradient-generator">
                     <a href="/css-linear-gradient-generator">
                       <div className="case-item box box__second">
                         <img className="case-item__icon" src={card.gradient.image} alt="border radius generator" title="border radius generator" />
@@ -93,6 +93,13 @@ export default class extends Page {
 
               </div>
             </div>
+            <style jsx>
+{`
+ a:hover{
+     text-decoration:none;
+ }
+`}
+</style>
       </Layout>
     )
   }
